@@ -1,0 +1,57 @@
+{
+"id":"123",
+"MediaPoint": 
+	
+	[
+        {
+          "Apply": {
+            "Policy": {
+              "ViewingPolicy": {
+                "Audience": {
+                  "Zip": [
+                    "30260",
+                    "30380",
+                    "30024",
+                    "30145",
+                    "30266",
+                    "30387",
+                    "30023",
+                    "30144",
+                    "30265",
+                    "30386",
+                    "30026",
+                    "30147",
+                    "30268",
+                    "30389",
+                    "30025"
+                  ]
+                },
+                "Content": "espnBoSlate"
+              }
+            }
+          },
+          "MatchSignal": "saalimVerification"
+        },
+        {
+          "Remove": {
+            "Policy": {
+              "ViewingPolicy": {
+                "Audience": {
+                  "Zip": [
+                    "30260",
+                    "30380",
+                    "30024",
+                    "30145",
+                    "30605",
+                    "30602",
+                    "30601"
+                  ]
+                },
+                "Content": ""
+              }
+            }
+          },
+          "MatchSignal": ""
+        }
+	]
+}
